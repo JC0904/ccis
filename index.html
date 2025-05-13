@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College of Computing and Information Sciences</title>
+  <link rel="stylesheet" type="text/css" href="src/style.css">
+</head>
+<body>
+  <nav id="nav-bar">
+    <div id="nav-div" class="container">
+      <img src="assets/images/CCIS.png" alt="CCIS Logo" height="50rem">
+      <ul id="nav-items">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="programs.html">Programs</a></li>
+        <li><a href="facilities.html">Facilities</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header>
+    <div id="hero-bg">
+      <div id="hero">
+        <h1>College of Computing and Information Sciences</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <a href="programs.html" id="hero-btn">Explore Programs</a>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="programs">
+      <h2>Academic Programs</h2>
+      <div class="card-grid">
+        <div class="card" onclick="onCardClick('programs.html#bscs')">
+          <img src="assets/images/temp-students.jpg" alt="BSCS Students">
+          <h3>BSCS</h3>
+          <p>Bachelor of Science in Computer Science</p>
+        </div>
+        <div class="card" onclick="onCardClick('programs.html#bsit')">
+          <img src="assets/images/temp-students.jpg" alt="BSIT Students">
+          <h3>BSIT</h3>
+          <p>Bachelor of Science in Information Technology</p>
+        </div>
+        <div class="card" onclick="onCardClick('programs.html#bsemc')">
+          <img src="assets/images/temp-students.jpg" alt="BSEMC Students">
+          <h3>BSEMC</h3>
+          <p>Bachelor of Science in Entertainment and Multimedia Computing</p>
+        </div>
+      </div>
+    </div>
+    <div id="facilities">
+      <h2>Department Facilities</h2>
+      <div class="card-grid">
+        <div class="card" onclick="onCardClick('facilities.html#com-lab')">
+          <img src="assets/images/com-lab.jpg" alt="Computer Lab">
+          <h3>Computer Laboratories</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="card" onclick="onCardClick('facilities.html#anim-lab')">
+          <img src="assets/images/anim-lab.jpg" alt="Animation Lab">
+          <h3>Animation Laboratory</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="card" onclick="onCardClick('facilities.html#theatre')">
+          <img src="assets/images/theatre.jpg" alt="Theatre">
+          <h3>Theatre</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="card" onclick="onCardClick('facilities.html#library')">
+          <img src="assets/images/library.jpg" alt="Library">
+          <h3>Library</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div id="footer">
+      <p>© 2025 System Plus College Foundation</p>
+    </div>
+  </footer>
+  <script src="src/script.js"></script>
+</body>
+</html>
